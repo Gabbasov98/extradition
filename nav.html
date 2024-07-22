@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/intlTelInput.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="wanted.html" style="display: block; margin-bottom: 20px;">
+            Международный розыск
+        </a>
+        <a href="wanted-country.html" style="display: block; margin-bottom: 20px;">
+            Международный розыск - Страна
+        </a>
+        <a href="refugee.html" style="display: block; margin-bottom: 20px;">
+            Беженство
+        </a>
+        <a href="refugee-country.html" style="display: block; margin-bottom: 20px;">
+            Беженство - Страна
+        </a>
+        <a href="human-rights.html" style="display: block; margin-bottom: 20px;">
+            Защита прав человека
+        </a>
+        <a href="human-rights-country.html" style="display: block; margin-bottom: 20px;">
+            Защита прав человека - Страна
+        </a>
+        <a href="human-rights-co.html" style="display: block; margin-bottom: 20px;">
+            Защита прав человека - Организация
+        </a>
+        <a href="asset-protection.html" style="display: block; margin-bottom: 20px;">
+            Защита активов
+        </a>
+        <a href="media-support.html" style="display: block; margin-bottom: 20px;">
+            Медийная поддержка
+        </a>
+        <a href="media-support.html" style="display: block; margin-bottom: 20px;">
+            Юридическая поддержка
+        </a>
+        <a href="wanted2.html" style="display: block; margin-bottom: 20px;">
+            Розыск
+        </a>
+        <a href="notification.html" style="display: block; margin-bottom: 20px;">
+            Уведомления
+        </a>
+
+
+        <a href="cases.html" style="display: block; margin-bottom: 20px;">
+            Кейсы
+        </a>
+        <a href="blog.html" style="display: block; margin-bottom: 20px;">
+            Блог
+        </a>
+        <a href="blog-item.html" style="display: block; margin-bottom: 20px;">
+            Блог - Полная статья
+        </a>
+
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+        <a href="privacy.html" style="display: block; margin-bottom: 20px;">
+            Политика приватности
+        </a>
+        <a href="conditions.html" style="display: block; margin-bottom: 20px;">
+            Условия использования
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О нас
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            Бесплатная помощь
+        </a>
+
+
+
+
+        <button data-modal="consultModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Бесплатная консультация
+        </button>
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="modal" id="consultModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="h2">
+                Бесплатная <br> <span class="red-text">консультация</span>
+            </div>
+            <button class="modal__close _close-modal">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5 5.5L5.5 16.5" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" />
+                    <path d="M5.5 5.5L16.5 16.5" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <form action="" class="modal-form">
+                <div class="modal-form__fields">
+                    <div class="fg _white">
+                        <input type="text">
+                        <label>Ваше имя</label>
+                    </div>
+                    <div class="fg _white">
+                        <input type="email">
+                        <label>Email</label>
+                    </div>
+                    <div class="fg _white tel-input _full-tablet">
+                        <input type="tel">
+                    </div>
+                </div>
+                <div class="contacts-form__nav">
+                    <button class="contacts-form__btn m-btn m-btn-red m-btn-arrow">
+                        <span>Отправить</span>
+                        <img src="img/arrow-right.svg" alt="">
+                    </button>
+                    <div class="m-check">
+                        <input type="checkbox">
+                        <label>
+                            <span>
+                            Согласен с <a href="">политикой конфиденциальности</a> и обработкой персональных данных.
+                        </span>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/intlTelInput-jquery.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
